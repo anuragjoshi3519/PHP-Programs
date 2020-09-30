@@ -7,6 +7,6 @@ function printFibonacci($num){
         return (printFibonacci($num-1) + printFibonacci($num-2));
     } 
 }
-for($i=0;$i<=10;$i++)
+for($i=0;$i<20;$i++)
     echo printFibonacci($i)." ";
 ?>
